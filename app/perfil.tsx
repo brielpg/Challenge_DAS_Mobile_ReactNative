@@ -7,6 +7,7 @@ import noProfilePicture from '../assets/images/noprofilepicture.png';
 import phoneImage from '../assets/images/phone.png';
 import mailImage from '../assets/images/mail.png';
 import personImage from '../assets/images/person.png';
+import { Link } from 'expo-router';
 
 const Perfil = () => {
   const [clinica, setClinica] = useState({
@@ -67,9 +68,11 @@ const Perfil = () => {
         </View>
       </View>
 
-      <TouchableOpacity className="mt-8 w-72 h-16 bg-azul-bebe-escuro rounded-lg self-center justify-center items-center border-2 border-roxo-texto">
-        <Text className="text-2xl text-roxo-texto font-semibold text-center">Alterar Dados</Text>
-      </TouchableOpacity>
+      <Link href="/editarperfil" className='mt-14' asChild>
+        <TouchableOpacity className="mt-8 w-72 h-16 bg-azul-bebe-escuro rounded-lg self-center justify-center items-center border-2 border-roxo-texto">
+          <Text className="text-2xl text-roxo-texto font-semibold text-center">Alterar Dados</Text>
+        </TouchableOpacity>
+      </Link>
       
       <View className='absolute bottom-0 w-full'>
           <Footer />
