@@ -4,6 +4,7 @@
 ## 1. Integrantes:
 - RM554012 Gabriel Pescarolli Galiza  
 - RM554258 Guilherme Gambarão Baptista
+- RM553640 Marcelo Vieira Junior
 
 ## 2. Tecnologias Utilizadas:
 - **React Native**
@@ -52,4 +53,6 @@ O projeto é um app software de triagem de dados da consulta antes de realizar a
 
 4. Página Inicial – Ao estar logado essa tela é liberada para o usuário, a partir dela na parte inferior, o usuário pode alterar para a tela de perfil clicando no imageButton com formato de pessoa.  
 
-5. Perfil (API) – Tela de perfil onde o usuário pode verificar alguma de suas informações, nesta tela é feita uma requisição GET para obter informações extras que antes não foram salvas para exibi-las caso o usuário queira verificar, informações essas que aparecem ao pressionar algumas vez o imageButton com formato de pessoa; Pressionando o imageButton com formato de uma casa o usuário volta para a Página Inicial; Pressionando o imageButton com formato de porta (logout) o usuário desconecta da sua conta e volta para a tela de login.  
+5. Perfil (API) – Tela de perfil onde o usuário pode verificar alguma de suas informações, nesta tela é feita uma requisição GET para obter informações extras que antes não foram salvas para exibi-las caso o usuário queira verificar, informações essas que aparecem ao pressionar algumas vez o imageButton com formato de pessoa; Pressionando o imageButton com formato de uma casa o usuário volta para a Página Inicial; Pressionando o imageButton com formato de porta (logout) o usuário desconecta da sua conta e volta para a tela de login.
+
+6. Editar Perfil (API) - Tela onde o usuário pode alterar as suas informações cadastradas, nesta tela é feita uma requisição PUT enviando os dados que o usuário deseja alterar, pressionando o botão de salvar, a comunicação é feita com a api.
