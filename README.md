@@ -9,6 +9,8 @@
 ## 2. Tecnologias Utilizadas:
 - **React Native**
 - **Expo**
+- **Axios**
+- **Async Storage**
 - **Typescript**
 - **NativeWind**
 
